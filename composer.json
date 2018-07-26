@@ -1,0 +1,28 @@
+{
+    "name": "debugger84/decorator",
+    "description": "This is a decorator pattern implementation.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andrey",
+            "email": "yanak1984@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "symfony/cache": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExternalService\\": "src/ExternalService/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ExternalService\\Tests\\": "tests/"
+        }
+    }
+}

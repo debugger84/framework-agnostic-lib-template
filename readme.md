@@ -1,0 +1,1 @@
+This library is a boilerplate for framework-agnostic libraries. Also it shows the Decorator pattern in action.
